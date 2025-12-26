@@ -1497,9 +1497,10 @@ GameListLayout.Parent = GameScrolling
 
 -- Create Toggles
 createGameToggle("Auto Tap", "AutoTap", StartAutoTap, StopAutoTap, GameScrolling)
-createGameToggle("Auto Use can", "AutoMutations", StartAutoMutations, StopAutoMutations, GameScrolling) -- Renamed
+createGameToggle("Auto Tree", "AutoMutations", StartAutoMutations, StopAutoMutations, GameScrolling) -- Renamed
 createGameToggle("Auto Collect Coins", "AutoCollectCoins", StartAutoCollect, StopAutoCollect, GameScrolling)
 createGameToggle("Auto Prestige", "AutoPrestige", StartAutoPrestige, StopAutoPrestige, GameScrolling)
+createGameToggle("Auto Use Cans", "AutoUseCans", StartAutoUseCans, StopAutoUseCans, GameScrolling)
 createGameToggle("Auto Pickup Cans", "AutoPickupCans", StartAutoPickupCans, StopAutoPickupCans, GameScrolling)
 createGameSlider("Water Threshold", "WaterLevelThreshold", 1, 120, GameScrolling) -- Added Water Level Slider
 createGameToggle("Auto Claim Purifier", "AutoClaimPurifier", StartAutoClaimPurifier, StopAutoClaimPurifier, GameScrolling)
